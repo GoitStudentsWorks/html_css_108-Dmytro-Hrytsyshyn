@@ -1,1 +1,52 @@
-
+<section class="hero">
+  <div class="container hero-container">
+    <ul class="hero-ul">
+      <li class="hero-li">
+        <picture>
+          <source
+            srcset="
+              /img/hero/hero-desktop.webp    1x,
+              /img/hero/hero-desktop@2x.webp 2x
+            "
+            media="(min-width:1280px)"
+          />
+          <source
+            srcset="
+              /img/hero/hero-tablet.webp    1x,
+              /img/hero/hero-tablet@2x.webp 2x
+            "
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="
+              /img/hero/hero-mobile.webp    1x,
+              /img/hero/hero-mobile@2x.webp 2x
+            "
+            media="(min-width:320px)"
+          />
+          <img class="hero-girl" src="" alt="girl" width="335" height="545" />
+        </picture>
+      </li>
+      <li class="hero-li">
+        <h1 class="hero-title">
+          Reviving the traditional
+          <span class="hero-title-span"> Ukrainian </span> artistry in every
+          stitch.
+        </h1>
+        <button class="hero-button" type="button">
+          <a class="hero-button-order" href="#your-order"> ORDER</a>
+          <svg class="hero-order-icon" width="26" height="26">
+            <use href="/img/svg-icons/svg.svg#icon-untitled"></use>
+          </svg>
+        </button>
+      </li>
+      <li class="hero-li">
+        <picture>
+          <source srcset="/img/Star.webp 1x, /img/Star@2x.webp 2x" />
+          <img class="hero-star" src="" alt="star" width="52" height="51" />
+        </picture>
+        <h4 class="hero-text">all embroidery is made by hand</h4>
+      </li>
+    </ul>
+  </div>
+</section>

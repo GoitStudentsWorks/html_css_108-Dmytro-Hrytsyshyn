@@ -1,0 +1,47 @@
+/* ========HERO */
+
+.hero-title {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+}
+.hero-title-span {
+  color: #ecd979;
+}
+.hero-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 39px;
+  width: 168px;
+  height: 50px;
+  background-color: inherit;
+}
+.hero-button:focus,
+.hero-button:hover {
+  border-color: #ecd979;
+}
+.hero-button-order {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+}
+.hero-order-icon {
+  fill: #ecd979;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: rgba(252, 249, 249, 0.4);
+}
