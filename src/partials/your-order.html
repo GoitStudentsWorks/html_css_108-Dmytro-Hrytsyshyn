@@ -1,4 +1,36 @@
 <div class="order-container">
-    <div></div>
-    <div></div>
+  <div class="order-girl-green"></div>
+  <div class="order-input-fields-set">
+    <h2 class="order-form-header">
+      <span class="order-yellow-text">Your order</span> is our priority:
+      Personalized approach and quality of service
+    </h2>
+    <form action="" class="order-form">
+      <div class="order-form-input-wrapper">
+        <input
+          class="order-form-input-field"
+          type="text"
+          name="user-name"
+          placeholder="Enter your full name"
+          pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']+"
+          required
+        />
+        <input
+          class="order-form-input-field"
+          type="email"
+          name="user-email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <textarea
+          class="order-form-message"
+          name="user-comment"
+          placeholder="Comments"
+        ></textarea>
+      </div>
+      <button class="order-form-button" type="submit">Send</button>
+    </form>
+  </div>
+  <div class="order-item-img"></div>
 </div>
