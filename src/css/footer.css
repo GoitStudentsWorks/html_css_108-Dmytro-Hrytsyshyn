@@ -1,16 +1,20 @@
 
 /*===== FOOTER-MOBILE =====*/
 
+.image-wrapper {
+    background-image: url("/img/ornament/ornament-yellow@2x-min.png");
+    background-repeat: no-repeat;
+    background-position: center bottom -100%;
+    background-size: 452px 401px; 
+}
+
 .container.footer-container {
     min-height: 637px;
+    border-top: 1px solid rgba(252, 249, 249, 0.1);
     margin-left:  auto;
     margin-right: auto;
     padding-top: 40px;
-    border-top: 1px solid rgba(252, 249, 249, 0.1);  
-    background-image: url("/img/ornament/ornament-yellow@2x-min.png");
-    background-repeat: no-repeat;
-    background-position: center top 470px;
-    background-size: 100% auto;
+   
 }
 
 .footer-list {
@@ -18,7 +22,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin: 40px auto 40px auto;
+    margin: 0 auto 40px auto;
     row-gap: 25px;
     max-height: 61px;
     width: 288px;
@@ -157,13 +161,18 @@ span:nth-child(18) {
 
 @media screen and (min-width: 768px) {
 
-    .footer-list {
-        flex-wrap: nowrap;
-        min-width: 478px;
-        gap: 25px;
-        justify-content: flex-start;
-        margin-right: 0;
-        margin-left: 0;
+.image-wrapper {
+        background-position: bottom right -50%;
+        background-size: 595px auto;
+    }
+
+.footer-list {
+    flex-wrap: nowrap;
+    min-width: 478px;
+    gap: 25px;
+    justify-content: flex-start;
+    margin-right: 0;
+    margin-left: 0;
     }
 
 .footer-link {
@@ -173,22 +182,39 @@ span:nth-child(18) {
 
 .footer-anchor {
     font-size: 14px;
-
 }
 
-.container.footer-container {
-    min-height: 370px;
-    background-position: top 0% left 600px;
-
-
+.image-wrapper {
+    background-position: top -50% right -150%;
 }
 
 .slogan {
-    margin-left: 0;
-    margin-right: 0;
     max-width: 521px;
     font-size: 54px;
     line-height: 119%;
-    margin-bottom: 40px;
+    margin: 80px 0px 40px 0px;
 }
+}
+
+/*===== FOOTER-DESKTOP-1280 =====*/
+
+@media screen and (min-width: 1280px) {
+
+.image-wrapper {
+    background-position: right -40% bottom 150%;
+    background-size: 595px auto;
+        }
+
+.slogan {
+    margin-top: 117px;
+    max-width: 754px;
+    font-size: 64px;
+    line-height: 116%;
+    }
+}
+
+/*===== FOOTER-DESKTOP-1440 =====*/
+
+@media screen and (min-width: 1440px) {
+
 }
