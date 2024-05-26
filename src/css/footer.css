@@ -1,6 +1,10 @@
 
 /*===== FOOTER-MOBILE =====*/
 
+.common-div {
+    border-top: 1px solid rgba(252, 249, 249, 0.1);
+}
+
 .image-wrapper {
     width: 452px;
     height: 401px;
@@ -13,11 +17,8 @@
 }
 
 .container.footer-container {
-    border-top: 1px solid rgba(252, 249, 249, 0.1);
-    margin-left:  auto;
-    margin-right: auto;
+    border-top: none;    
     padding-top: 40px;
-   
 }
 
 .footer-list {
@@ -25,7 +26,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 40px 0;
     row-gap: 25px;
     max-height: 61px;
     width: 288px;
@@ -49,7 +50,6 @@
 }
 
 .slogan {
-
 font-weight: 400;
 font-size: 44px;
 line-height: 123%;
@@ -73,10 +73,15 @@ margin-left: auto;
     .common-div {
         display: flex;
         flex-wrap: nowrap;
-    }
-    .container.footer-container {
+        border-top: 1px solid rgba(252, 249, 249, 0.1);
         min-height: 370px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .container.footer-container {
         padding-right: 0;
+        border: none;
     }
 
     .image-wrapper {
@@ -114,7 +119,9 @@ margin-left: auto;
 
 @media screen and (min-width: 1280px) {
 
-
+.common-div {
+    height: 363px;
+}
 .image-wrapper {
     width: 595px;
     height: 528px;
