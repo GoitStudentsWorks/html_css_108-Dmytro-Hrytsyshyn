@@ -2,14 +2,17 @@
 /*===== FOOTER-MOBILE =====*/
 
 .image-wrapper {
+    width: 452px;
+    height: 401px;
     background-image: url("/img/ornament/ornament-yellow@2x-min.png");
     background-repeat: no-repeat;
-    background-position: center bottom -100%;
-    background-size: 452px 401px; 
+    background-position: right bottom;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .container.footer-container {
-    min-height: 637px;
     border-top: 1px solid rgba(252, 249, 249, 0.1);
     margin-left:  auto;
     margin-right: auto;
@@ -29,7 +32,6 @@
 }
 
 .footer-link {
-    display: flex;
     flex: 0 0 124px;
 }
 
@@ -47,7 +49,7 @@
 }
 
 .slogan {
-    max-width: 335px;
+
 font-weight: 400;
 font-size: 44px;
 line-height: 123%;
@@ -58,14 +60,29 @@ margin-right: auto;
 margin-left: auto;
 }
 
+@media (min-resolution: 192dpi) {
+.image-wrapper {
+    background-image: url("/img/ornament/ornament-yellow@2x-min.png");
+}
+}
 
 /*===== FOOTER-TABLET =====*/
 
 @media screen and (min-width: 768px) {
 
-.image-wrapper {
-        background-position: right -60% top 0%;
+    .common-div {
+        display: flex;
+        flex-wrap: nowrap;
     }
+    .container.footer-container {
+        min-height: 370px;
+        padding-right: 0;
+    }
+
+    .image-wrapper {
+        background-position: right 210% top;
+        background-size: cover;
+        }
 
 .footer-list {
     flex-wrap: nowrap;
@@ -86,37 +103,31 @@ margin-left: auto;
 }
 
 .slogan {
-    max-width: 521px;
+    width: 525px;
     font-size: 54px;
     line-height: 119%;
     margin: 80px 0px 40px 0px;
 }
 }
 
-/*===== FOOTER-DESKTOP-1280 =====*/
+/*===== FOOTER-DESKTOP-1280-1440 =====*/
 
 @media screen and (min-width: 1280px) {
 
+
 .image-wrapper {
-    background-position: right -40% bottom 150%;
-    background-size: 595px auto;
-        }
+    width: 595px;
+    height: 528px;
+    background-position: right -150px top -50px;
+    background-size: contain;
+    }
 
 .slogan {
+    width: 754px;
     margin-top: 117px;
     max-width: 754px;
     font-size: 64px;
     line-height: 116%;
     }
-}
-
-/*===== FOOTER-DESKTOP-1440 =====*/
-
-@media screen and (min-width: 1440px) {
-
-    .image-wrapper {
-            background-position: right -12% bottom 150%;
-            background-size: 595px auto;
-        }
 
 }
