@@ -8,7 +8,6 @@
 
 .header {
   margin-top: 20px;
-  margin-bottom: 84px;
 }
 
 .header-container {
@@ -66,10 +65,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    margin-bottom: 100px;
-  }
-
   .address-box {
     gap: 20px;
   }
