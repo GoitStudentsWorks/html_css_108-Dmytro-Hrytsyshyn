@@ -4,7 +4,7 @@
 }
 
 .order-girl-green {
-  background-image: url(../img/your-order/bcg-mobile.webp);
+  background-image: url(/img/your-order/bcg-mobile.webp);
   background-position: center;
   margin: 0 auto;
   width: 375px;
@@ -14,7 +14,7 @@
 
 @media screen and (min-resolution: 192dpi) {
   .order-girl-green {
-    background-image: url(../img/your-order/bcg-mobile@2x.webp);
+    background-image: url(/img/your-order/bcg-mobile@2x.webp);
   }
 }
 
@@ -33,12 +33,12 @@
 }
 
 .order-input-fields-set {
-  padding: 80px 20px;
+  padding: 80px 20px 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 511px;
+  margin-bottom: 80px;
 }
 
 .order-form-input-wrapper {
@@ -129,14 +129,14 @@
   }
 
   .order-girl-green {
-    background-image: url(../img/your-order/bcg-tablet.webp);
+    background-image: url(/img/your-order/bcg-tablet.webp);
     width: 768px;
     height: 776px;
   }
 
   @media screen and (min-resolution: 192dpi) {
     .order-girl-green {
-      background-image: url(../img/your-order/bcg-tablet@2x.webp);
+      background-image: url(/img/your-order/bcg-tablet@2x.webp);
     }
   }
   .order-form-header {
@@ -170,7 +170,7 @@
   }
 
   .order-form-desk {
-    background-image: url(../img/ornament/ornament-gray-min.png);
+    background-image: url(/img/ornament/ornament-gray-min.png);
     background-repeat: no-repeat;
     background-position: top 90% right 215%;
   }
@@ -178,7 +178,6 @@
   .order-item-img {
     display: flex;
     justify-content: center;
-    padding-bottom: 179px;
   }
 }
 
@@ -188,14 +187,14 @@
   }
 
   .order-girl-green {
-    background-image: url(../img/your-order/bcg-desktop.webp);
+    background-image: url(/img/your-order/bcg-desktop.webp);
     width: 1280px;
     height: 776px;
   }
 
   @media screen and (min-resolution: 192dpi) {
     .order-girl-green {
-      background-image: url(../img/your-order/bcg-desktop@2x.webp);
+      background-image: url(/img/your-order/bcg-desktop@2x.webp);
     }
   }
 
@@ -210,14 +209,10 @@
     gap: 50px;
     padding: 150px 50px;
 
-    background-image: url(../img/ornament/ornament-gray-min.png);
+    background-image: url(/img/ornament/ornament-gray-min.png);
     background-repeat: no-repeat;
     background-position: top 60% right 150%;
   }
 
-  .order-item-img {
-    height: 521px;
-    margin-bottom: 0; 
-    
-  }
+
 }
