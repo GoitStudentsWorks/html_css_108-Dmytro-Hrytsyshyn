@@ -1,0 +1,223 @@
+.order-container {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.order-girl-green {
+  background-image: url(../img/your-order/bcg-mobile.webp);
+  background-position: center;
+  margin: 0 auto;
+  width: 375px;
+  height: 500px;
+  background-size: cover;
+}
+
+@media screen and (min-resolution: 192dpi) {
+  .order-girl-green {
+    background-image: url(../img/your-order/bcg-mobile@2x.webp);
+  }
+}
+
+.order-form-header {
+  max-width: 375px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.37;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+}
+
+.order-yellow-text {
+  color: #ecd979;
+}
+
+.order-input-fields-set {
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 511px;
+}
+
+.order-form-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.order-form-input-field {
+  color: rgba(252, 249, 249, 0.5);
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 16px;
+  width: 335px;
+  height: 47px;
+  background-color: transparent;
+}
+
+.order-form-input-field::placeholder,
+.order-form-message::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(252, 249, 249, 0.5);
+}
+
+.order-form-input-field:active,
+.order-form-input-field:focus {
+  border: 1px solid rgba(252, 249, 249, 0.6);
+  color: #fcf9f9;
+}
+
+.order-form-message {
+  max-width: 335px;
+  height: 196px;
+  color: rgba(252, 249, 249, 0.5);
+  background-color: transparent;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+
+.order-form-message:active,
+.order-form-message:focus {
+  border: 1px solid rgba(252, 249, 249, 0.6);
+  color: #fcf9f9;
+}
+
+.order-form-button {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 36px;
+  width: 145px;
+  height: 49px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+}
+
+.order-btn-icon {
+  width: 26px;
+  height: 10px;
+  fill: #ecd979;
+  margin-left: 10px;
+}
+
+.order-form-button:hover,
+.order-form-button:focus {
+  border-color: #ecd979;
+}
+
+.order-item-img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .order-container {
+    min-width: 768px;
+    position: relative;
+  }
+
+  .order-girl-green {
+    background-image: url(../img/your-order/bcg-tablet.webp);
+    width: 768px;
+    height: 776px;
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .order-girl-green {
+      background-image: url(../img/your-order/bcg-tablet@2x.webp);
+    }
+  }
+  .order-form-header {
+    max-width: 542px;
+    font-size: 44px;
+    line-height: 1.32;
+  }
+
+  .order-input-fields-set {
+    padding: 100px 32px;
+    margin-bottom: 0;
+    align-items: start;
+  }
+
+  .order-form-input-field {
+    width: 508px;
+    height: 50px;
+  }
+
+  .order-form-message {
+    max-width: 508px;
+  }
+
+  .order-form-button {
+    margin: 0;
+    padding: 14px 39px;
+    width: 168px;
+    height: 50px;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+  }
+
+  .order-form-desk {
+    background-image: url(../img/ornament/ornament-gray-min.png);
+    background-repeat: no-repeat;
+    background-position: top 90% right 215%;
+  }
+
+  .order-item-img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 179px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .order-container {
+    min-width: 1280px;
+  }
+
+  .order-girl-green {
+    background-image: url(../img/your-order/bcg-desktop.webp);
+    width: 1280px;
+    height: 776px;
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .order-girl-green {
+      background-image: url(../img/your-order/bcg-desktop@2x.webp);
+    }
+  }
+
+  .order-input-fields-set {
+    padding: 0;
+  }
+
+  .order-form-desk {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 50px;
+    padding: 150px 50px;
+
+    background-image: url(../img/ornament/ornament-gray-min.png);
+    background-repeat: no-repeat;
+    background-position: top 60% right 150%;
+  }
+
+  .order-item-img {
+    height: 521px;
+    margin-bottom: 0; 
+    
+  }
+}
