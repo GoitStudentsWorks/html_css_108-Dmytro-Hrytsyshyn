@@ -49,6 +49,7 @@ h1,h2,h3,h4,h5,h6,p{
 
     @media screen and (min-width: 768px) {
       .container {
+        max-width: none;
         width: 768px;
         padding-left: 32px;
         padding-right: 32px;
