@@ -33,12 +33,12 @@
 }
 
 .order-input-fields-set {
-  padding: 80px 20px;
+  padding: 80px 20px 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 511px;
+  margin-bottom: 80px;
 }
 
 .order-form-input-wrapper {
@@ -178,7 +178,6 @@
   .order-item-img {
     display: flex;
     justify-content: center;
-    padding-bottom: 179px;
   }
 }
 
@@ -215,9 +214,5 @@
     background-position: top 60% right 150%;
   }
 
-  .order-item-img {
-    height: 521px;
-    margin-bottom: 0; 
-    
-  }
+
 }
