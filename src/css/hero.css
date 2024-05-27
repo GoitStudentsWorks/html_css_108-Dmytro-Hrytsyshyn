@@ -15,7 +15,7 @@
   line-height: 1.09;
   letter-spacing: -0.03em;
   color: #fcf9f9;
-  width: 335px;
+  max-width: 335px;
 }
 .hero-title-span {
   color: #ecd979;

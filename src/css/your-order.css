@@ -1,5 +1,5 @@
 .order-container {
-  width: 375px;
+  max-width: 375px;
   margin: 0 auto;
 }
 
@@ -7,7 +7,7 @@
   background-image: url(/img/your-order/bcg-mobile.webp);
   background-position: center;
   margin: 0 auto;
-  width: 375px;
+  max-width: 375px;
   height: 500px;
   background-size: cover;
 }
@@ -19,7 +19,7 @@
 }
 
 .order-form-header {
-  max-width: 375px;
+  max-width: 335px;
   margin-bottom: 40px;
   font-weight: 500;
   font-size: 32px;
@@ -53,7 +53,6 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   border-radius: 15px;
   padding: 14px 16px;
-  width: 335px;
   height: 47px;
   background-color: transparent;
 }
@@ -128,9 +127,14 @@
     position: relative;
   }
 
+  .order-form-input-field {
+     width: 508px;
+     height: 50px;
+   }
+
   .order-girl-green {
     background-image: url(/img/your-order/bcg-tablet.webp);
-    width: 768px;
+    max-width: 768px;
     height: 776px;
   }
 
@@ -149,11 +153,6 @@
     padding: 100px 32px;
     margin-bottom: 0;
     align-items: start;
-  }
-
-  .order-form-input-field {
-    width: 508px;
-    height: 50px;
   }
 
   .order-form-message {
@@ -185,10 +184,10 @@
   .order-container {
     min-width: 1280px;
   }
-
+ 
   .order-girl-green {
     background-image: url(/img/your-order/bcg-desktop.webp);
-    width: 1280px;
+    max-width: 1280px;
     height: 776px;
   }
 
@@ -213,6 +212,4 @@
     background-repeat: no-repeat;
     background-position: top 60% right 150%;
   }
-
-
 }
