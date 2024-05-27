@@ -52,6 +52,7 @@ h1,h2,h3,h4,h5,h6,p{
         max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
+        margin: 0 auto;
       }
 
       section{ 
@@ -64,6 +65,7 @@ h1,h2,h3,h4,h5,h6,p{
         max-width: 1280px;
         padding-left: 50px;
         padding-right: 50px;
+        margin: 0 auto;
       }
 
       section{ 
@@ -76,6 +78,7 @@ h1,h2,h3,h4,h5,h6,p{
         max-width: 1440px;
         padding-left: 100px;
         padding-right: 100px;
+        margin: 0 auto;
       }
     }
 
