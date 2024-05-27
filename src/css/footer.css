@@ -1,6 +1,10 @@
 
 /*===== FOOTER-MOBILE =====*/
 
+.section.footer {
+    padding-top: 40px;
+}
+
 .footer {
     background-image: url("/img/ornament/ornament-yellow@2x-min.png");
     background-repeat: no-repeat;
@@ -38,7 +42,6 @@ line-height: 123%;
 letter-spacing: -0.03em;
 color: #FCF9F9;
 padding-top: 40px;
-
 }
 
 @media (min-resolution: 192dpi) {
@@ -50,6 +53,10 @@ padding-top: 40px;
 /*===== FOOTER-TABLET =====*/
 
 @media screen and (min-width: 768px) {
+
+    .section.footer {
+    padding-bottom: 40px;
+    }
 
     .container.footer-container {
         margin-left: 0;
@@ -63,6 +70,7 @@ padding-top: 40px;
         min-height: 370px;
         background-size: 452px 401px;
         background-position: top right -277px;
+        padding-bottom: 0;
     }
 
 .footer-list {
@@ -78,7 +86,7 @@ padding-top: 40px;
     width: 525px;
     font-size: 54px;
     line-height: 119%;
-    padding: 117px 0px 40px 0px;
+    padding-top: 80px;
 }
 }
 
@@ -95,6 +103,7 @@ padding-top: 40px;
     max-width: 754px;
     font-size: 64px;
     line-height: 116%;
+    padding-top: 117px;
     }
 }
 
