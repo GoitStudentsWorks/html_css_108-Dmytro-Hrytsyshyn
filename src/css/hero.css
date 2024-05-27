@@ -1,8 +1,10 @@
 /* ========HERO */
+.hero {
+  margin: 84px auto 40px auto;
+}
 .hero-ul {
   display: flex;
   flex-direction: column-reverse;
-  margin: 84px auto 80px auto;
 }
 .hero-girl {
   border-radius: 4px;
@@ -51,12 +53,16 @@
   display: none;
 }
 @media screen and (min-width: 768px) {
+  .hero {
+    margin: 100px auto 50px auto;
+  }
   .hero-ul {
     width: 704px;
   }
   .hero-title-block {
     display: flex;
-    margin: 100px auto 46px auto;
+
+    margin-bottom: 46px;
     width: 704px;
     justify-content: space-around;
   }
@@ -104,9 +110,11 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .hero {
+    margin: 100px auto 75px auto;
+  }
   .hero-ul {
     flex-direction: row;
-    margin: 84px auto 80px auto;
     justify-content: flex-start;
     width: 1172px;
   }
