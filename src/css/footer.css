@@ -58,11 +58,6 @@ padding-top: 40px;
     padding-bottom: 40px;
     }
 
-    .container.footer-container {
-        margin-left: 0;
-        margin-right: 0;
-        }
-
     .footer  {
       display: flex;
         flex-wrap: nowrap;
@@ -78,8 +73,6 @@ padding-top: 40px;
     flex-wrap: nowrap;
     min-width: 478px;
     gap: 25px;
-    margin-right: 0;
-    margin-left: 0;
     }
 
 .slogan {
