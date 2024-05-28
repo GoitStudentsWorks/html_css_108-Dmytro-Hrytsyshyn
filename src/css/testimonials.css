@@ -1,15 +1,15 @@
 .testimonials-list{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 40px;
-    overflow: auto; 
-    max-height: 297px;
-    padding-top: 22px;  
+    overflow-x: auto; 
+    padding-top: 22px;
+    min-width: 335px; 
 }
 
 .testimonials-list-item{
     position: relative;
-    max-width: 335px;
+    width: 335px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 4px;
     padding: 54px 22px 18px 22px;                             
