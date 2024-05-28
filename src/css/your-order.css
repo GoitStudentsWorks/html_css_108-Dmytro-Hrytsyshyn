@@ -157,6 +157,7 @@
 
   .order-form-message {
     max-width: 508px;
+    resize: none;
   }
 
   .order-form-button {
