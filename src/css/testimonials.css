@@ -4,6 +4,7 @@
     gap: 40px;
     overflow-x: auto; 
     padding-top: 22px;
+    min-width: 320px;
 }
 
 .testimonials-list-item{
