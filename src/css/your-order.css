@@ -20,7 +20,7 @@
 
 .order-form-header {
   max-width: 335px;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
   font-weight: 500;
   font-size: 32px;
   line-height: 1.37;
@@ -32,13 +32,16 @@
   color: #ecd979;
 }
 
+.order-form {
+  width: 100%;
+}
+
 .order-input-fields-set {
-  padding: 80px 20px 0 20px;
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 80px;
 }
 
 .order-form-input-wrapper {
@@ -74,6 +77,7 @@
 .order-form-message {
   max-width: 335px;
   height: 196px;
+  resize: none;
   color: rgba(252, 249, 249, 0.5);
   background-color: transparent;
   border: 1px solid rgba(252, 249, 249, 0.1);
@@ -122,20 +126,34 @@
 }
 
 @media screen and (min-width: 768px) {
+  .your-order {
+    background-image: url(/img/ornament/elements.png);
+    background-repeat: no-repeat;
+    background-position: bottom 100px left -221px;
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .your-order {
+      background-image: url(/img/ornament/elements@2x.png);
+      background-size: 544px 483px;
+    }
+  }
+
   .order-container {
     min-width: 768px;
-    position: relative;
+    padding-bottom: 79px;
   }
 
   .order-form-input-field {
-     width: 508px;
-     height: 50px;
-   }
+    width: 508px;
+    height: 50px;
+  }
 
   .order-girl-green {
     background-image: url(/img/your-order/bcg-tablet.webp);
     max-width: 768px;
     height: 776px;
+    block-size: cover;
   }
 
   @media screen and (min-resolution: 192dpi) {
@@ -143,6 +161,7 @@
       background-image: url(/img/your-order/bcg-tablet@2x.webp);
     }
   }
+
   .order-form-header {
     max-width: 542px;
     font-size: 44px;
@@ -151,7 +170,6 @@
 
   .order-input-fields-set {
     padding: 100px 32px;
-    margin-bottom: 0;
     align-items: start;
   }
 
@@ -168,23 +186,35 @@
     letter-spacing: -0.04em;
   }
 
-  .order-form-desk {
-    background-image: url(/img/ornament/ornament-gray-min.png);
-    background-repeat: no-repeat;
-    background-position: top 90% right 215%;
-  }
-
   .order-item-img {
     display: flex;
     justify-content: center;
   }
+
+  .order-item-img-pic {
+    border-radius: 4px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .your-order {
+    background-image: url(/img/ornament/elements.png);
+    background-repeat: no-repeat;
+    background-position: bottom 150px left -255px;
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .your-order {
+      background-image: url(/img/ornament/elements@2x.png);
+      background-size: 544px 483px;
+    }
+  }
+
   .order-container {
     min-width: 1280px;
+    padding-bottom: 0;
   }
- 
+
   .order-girl-green {
     background-image: url(/img/your-order/bcg-desktop.webp);
     max-width: 1280px;
@@ -197,19 +227,17 @@
     }
   }
 
-  .order-input-fields-set {
-    padding: 0;
-  }
-
   .order-form-desk {
+    padding-top: 150px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
     gap: 50px;
-    padding: 150px 50px;
-
-    background-image: url(/img/ornament/ornament-gray-min.png);
-    background-repeat: no-repeat;
+    /* padding: 150px 50px; */
     background-position: top 60% right 150%;
+  }
+
+  .order-input-fields-set {
+    padding: 0;
   }
 }
