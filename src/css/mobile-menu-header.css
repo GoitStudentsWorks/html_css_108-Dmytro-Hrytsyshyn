@@ -73,6 +73,7 @@
     position: relative;
 }
 
+
 .mobile-menu-header {
     margin-bottom: 186px;
 }
@@ -83,8 +84,8 @@
     margin-bottom: 185px;
 }
 
-.mobile-menu-list-items:hover,
-.mobile-menu-list-items:focus {
+.mobile-menu-list-link:hover,
+.mobile-menu-list-link:focus {
     color: #fcf9f9;
 }
 
@@ -100,20 +101,6 @@
 .mobile-menu-list-items:not(:last-child) {
     margin-bottom: 20px;
 }
-
-.mobile-menu-graphics {
-    position: relative;
-    width: 340px;
-    height: 302px;
-    overflow: hidden;
-
-}
-
-.menu-mobile-ornament {
-    position: absolute;
-    transform: translateY(20%);
-}
-
 
 /* TABLET MENU */
 @media screen and (min-width: 768px) {
