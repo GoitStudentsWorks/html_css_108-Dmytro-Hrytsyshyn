@@ -123,6 +123,10 @@ li.item-testimonials {
         padding: 18px 38px 18px 18px;
         justify-content: center;
     }
+    .list-testimonials {
+        flex-direction: row;
+        gap: 32px;
+    }
     li.item-testimonials {
         position: relative;
     }
