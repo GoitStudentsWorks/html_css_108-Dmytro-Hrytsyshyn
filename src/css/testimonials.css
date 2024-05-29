@@ -23,10 +23,11 @@
         color: #fcf9f9;
         text-align: left;
 }
-img.testimonials-list-avatar {
+.testimonials-list-avatar {
         position: absolute;
         top: 0;
-        transform: translate(-50%, -40%);
+        right: 50%;
+        transform: translate(50%, -40%);
         border-radius: 50%;
         box-shadow: 0 1px 4px 0 rgba(16, 24, 40, 0.06);
         margin-bottom: 14px;
@@ -60,8 +61,12 @@ li.item-testimonials {
     .item-testimonials.item-3-hidden {
         display: none;
     }
+    .item-testimonials.item-1-hidden {
+        display: block;
+    }
     li.item-testimonials {
         max-width: 335px;
+        position: relative;
     }
     .list-testimonials {
         flex-direction: column;
@@ -73,6 +78,7 @@ li.item-testimonials {
         height: 171px;
         gap: 8px;
         text-align: center;
+        padding-top: 54px;
     }
     .testimonials .section-titel {
         text-align: left;
@@ -92,6 +98,10 @@ li.item-testimonials {
 @media screen and (min-width: 768px) {
     .item-testimonials.item-3-hidden {
         display: none;
+    }
+    .item-testimonials.item-1-hidden,
+    .item-testimonials.item-2-hidden {
+        display: block;
     }
     .cards-testimonials {
         padding-top: 40px;
@@ -126,6 +136,11 @@ li.item-testimonials {
     }
 }
 @media screen and (min-width: 1280px) {
+    .item-testimonials.item-1-hidden,
+    .item-testimonials.item-2-hidden,
+    .item-testimonials.item-3-hidden {
+        display: block;
+    }
     .cards-testimonials {
         gap: 8px;
         text-align: center;
@@ -143,6 +158,7 @@ li.item-testimonials {
     }
     li.item-testimonials {
         display: flex;
+        position: relative;
         padding: 24px 0 0 0;
         flex-direction: row;
         gap: 32px;
@@ -154,6 +170,11 @@ li.item-testimonials {
 }
 
 @media screen and (min-width: 1440px) {
+    .item-testimonials.item-1-hidden,
+    .item-testimonials.item-2-hidden,
+    .item-testimonials.item-3-hidden {
+            display: block;
+    }
     .cards-testimonials {
         gap: 8px;
         text-align: center;
