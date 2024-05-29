@@ -65,20 +65,20 @@ li.item-testimonials {
         display: block;
     }
     li.item-testimonials {
-        max-width: 335px;
+        width: 335px;
         position: relative;
-    }
-    .list-testimonials {
-        flex-direction: column;
-        flex-wrap: wrap;
-        gap: 32px;
+        justify-content: center;
     }
     .cards-testimonials {
-        max-width: 291px;
-        height: 171px;
         gap: 8px;
         text-align: center;
         padding-top: 54px;
+    }
+    .list-testimonials {
+        display: flex;
+        position: relative;
+        padding: 22px 18px 38px 18px;
+        justify-content: center;
     }
     .testimonials .section-titel {
         text-align: left;
@@ -94,7 +94,6 @@ li.item-testimonials {
         color: rgba(252, 249, 249, 0.4);
     }
 }
-
 @media screen and (min-width: 768px) {
     .item-testimonials.item-3-hidden {
         display: none;
@@ -120,8 +119,9 @@ li.item-testimonials {
     }
     .list-testimonials {
         display: flex;
-        flex-direction: row;
-        gap: 32px;
+        position: relative;
+        padding: 18px 38px 18px 18px;
+        justify-content: center;
     }
     li.item-testimonials {
         position: relative;
@@ -159,13 +159,11 @@ li.item-testimonials {
     li.item-testimonials {
         display: flex;
         position: relative;
-        padding: 24px 0 0 0;
-        flex-direction: row;
-        gap: 32px;
+        padding: 24px 18px 39px 18px;
         text-align: center;
     }
     li.item-testimonials {
-        width: calc((100% - 64px) / 3);
+        width: calc((100% - 52px) / 3);
     }
 }
 
@@ -186,13 +184,14 @@ li.item-testimonials {
     }
     .list-testimonials {
         display: flex;
-        flex-direction: row;
-        gap: 26px;
+        position: relative;
+        padding: 21px 18px 39px 18px;
+        text-align: center;
     }
     li.item-testimonials {
         position: relative;
     }
     li.item-testimonials {
-        width: calc((100% - 64px) / 3);
+        width: calc((100% - 52px) / 3);
     }
 }
