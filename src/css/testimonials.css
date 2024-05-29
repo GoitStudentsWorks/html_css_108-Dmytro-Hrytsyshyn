@@ -5,6 +5,7 @@
     overflow-x: auto; 
     padding-top: 22px;
     min-width: 320px;
+    overflow-y: hidden;
 }
 
 .testimonials-list-item{
