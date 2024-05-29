@@ -33,18 +33,19 @@
   height: 49px;
   background-color: inherit;
   margin: 20px auto 40px auto;
-}
-.hero-button:focus,
-.hero-button:hover {
-  border-color: #ecd979;
-}
-.hero-button-order {
+  cursor: pointer;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: -0.04em;
   text-transform: uppercase;
   color: #fcf9f9;
 }
+
+.hero-button:focus,
+.hero-button:hover {
+  border-color: #ecd979;
+}
+
 .hero-order-icon {
   fill: #ecd979;
 }
@@ -69,7 +70,7 @@
   .hero-title {
     font-size: 54px;
     line-height: 1.18;
-    width: 549px;
+    min-width: 549px;
   }
   .hero-button {
     margin: 40px auto 0 auto;
@@ -104,8 +105,6 @@
     padding: 14px 39px;
     width: 168px;
     height: 50px;
-  }
-  .hero-button-order {
     font-size: 16px;
   }
 }
@@ -131,7 +130,7 @@
     margin-right: 115px;
   }
   .hero-title {
-    max-width: 518px;
+    min-width: 518px;
     padding-top: 94px;
   }
   .hero-star-block {
