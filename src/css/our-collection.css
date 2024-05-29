@@ -56,6 +56,16 @@ letter-spacing: 0.05em;
 color: rgba(252, 249, 249, 0.4);
 }
 
+@media screen and (max-width: 767px) {
+    .our-collection-item {
+        height: 484px;
+    }
+
+    .our-collection-picture img {
+        height: 430px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .our-collection {
         padding-top: 50px;
