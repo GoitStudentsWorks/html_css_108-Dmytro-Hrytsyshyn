@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Fox4/",
+    "build": "vite build --base=/html_css_108-Dmytro-Hrytsyshyn/",
     "preview": "vite preview"
   },
   "devDependencies": {
